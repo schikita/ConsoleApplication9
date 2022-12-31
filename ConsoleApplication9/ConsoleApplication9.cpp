@@ -19,7 +19,7 @@ string toBinary(int n)
     return r;
 }
 
-string obr(int n) {
+string obr(int n) {          // обратный код
     int m = n;
     string r;
     if (n > 0)
@@ -45,7 +45,7 @@ string obr(int n) {
     return r;
 }
 
-string dop(int n) {
+string dop(int n) {             // доп код
     string s = obr(n);
 
     return s;
